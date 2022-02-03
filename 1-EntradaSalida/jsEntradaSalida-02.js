@@ -7,7 +7,7 @@ y luego mostrarlo por 'alert' al presionar el botón  'mostrar'*/
 function mostrar()
 {
 /*estoy declarando una variable*/
-let nombre
+let nombre;
 
 /*esto es una asignacion con = */
 /*el promp me permite pedir datos por teclado*/

@@ -35,11 +35,11 @@ function restar()
 	numero1 = parseInt(numero1);
 	numero2 = parseInt(numero2);
 
-resultado = numero1 - numero2;
+	resultado = numero1 - numero2;
 
-mensaje = "el resultado es " + resultado;
+	mensaje = "el resultado es " + resultado;
 
-alert(mensaje);
+	alert(mensaje);
 	
 }
 
@@ -56,11 +56,11 @@ function multiplicar()
 	numero1 = parseInt(numero1);
 	numero2 = parseInt(numero2);
 
-resultado = numero1 * numero2;
+	resultado = numero1 * numero2;
 
-mensaje = "el resultado es " + resultado;
+	mensaje = "el resultado es " + resultado;
 
-alert(mensaje);
+	alert(mensaje);
 }
 
 function dividir()
@@ -76,10 +76,10 @@ function dividir()
 	numero1 = parseInt(numero1);
 	numero2 = parseInt(numero2);
 
-resultado = numero1 / numero2;
+	resultado = numero1 / numero2;
 
-mensaje = "el resultado es " + resultado;
+	mensaje = "el resultado es " + resultado;
 
-alert(mensaje);
+	alert(mensaje);
 }
 

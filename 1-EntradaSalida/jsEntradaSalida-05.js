@@ -15,6 +15,8 @@ function mostrar()
 	nombre = document.getElementById("txtIdNombre").value;
 	edad = document.getElementById("txtIdEdad").value;
 
+//concatenar (+)   string --- variable---
+
 	alert("usted se llama " + nombre + " y tiene " + edad + " años");
 }
 

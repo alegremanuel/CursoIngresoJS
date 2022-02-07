@@ -10,13 +10,15 @@ function mostrarAumento()
 {
 	let importe
 	let descuento
-	let resultado
+	let preciodescuento
 
 	importe = parseInt(document.getElementById("txtIdImporte").value);
 
 	descuento = importe * 0.25;
 
-	document.getElementById("txtIdResultado").value = importe - descuento;
+	preciodescuento = importe - descuento
+
+	document.getElementById("txtIdResultado").value = preciodescuento;
 
 
 }

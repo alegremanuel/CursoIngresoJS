@@ -8,25 +8,67 @@ function Rectangulo ()
 {
 	let largo;
 	let ancho;
-	let total;
-	let mensaje
+	let perimetro;
+	let alambre;
+	let mensaje;
 
-	largo=parseInt(document.getElementById("txtIdLargo").value);
-	ancho=parseInt(document.getElementById("txtIdAncho").value);
+	largo=parseFloat(document.getElementById("txtIdLargo").value);
+	ancho=parseFloat(document.getElementById("txtIdAncho").value);
 
-	total=(largo + ancho) *3;
+	perimetro=(largo + ancho) *2;
 
-	mensaje="se necesitan " + total+ " metros";
+	alambre=perimetro *3;
+
+	mensaje="se necesitan " + alambre+ " metros";
 
 	alert(mensaje);
 
 
 }
+
 function Circulo () 
 {
+let radio;
+let totalradio;
+let alambre;
+let mensaje;
+
+radio=parseInt(document.getElementById("txtIdRadio").value);
+
+totalradio=2*3.14*radio;
+
+alambre= totalradio * 3;
+
+mensaje="se necesitan " + alambre + " metros";
+
+alert(mensaje);
+
+
+
+
 	
 }
+
 function Materiales () 
 {
+	let ancho;
+	let largo;
+	let superficie;
+	let cemento;
+	let cal;
+	let mensaje;
+
+	largo=parseFloat(document.getElementById("txtIdLargo").value);
+	ancho=parseFloat(document.getElementById("txtIdAncho").value);
+
+	superficie = largo * ancho;
+
+	cemento = superficie * 2;
+
+	cal = superficie * 3;
+
+	mensaje="se necesitan " + cemento + " de cemento y " + cal + " de cal";
+
+	 alert(mensaje); 
 	
 }

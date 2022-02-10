@@ -1,3 +1,6 @@
+/*ejercicio if 6
+alagre victor manuel*/
+
 function mostrar()
 {
 	let edad;
@@ -29,5 +32,5 @@ else{
 	else{
 		alert("usted es adolescente")
 	} */
-	
+
 }//FIN DE LA FUNCIÓN

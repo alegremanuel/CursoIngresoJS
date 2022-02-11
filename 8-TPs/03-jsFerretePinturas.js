@@ -4,17 +4,17 @@ B.	Al ingresar una temperatura en Centígrados debemos mostrar la temperatura en
 */
 function FahrenheitCentigrados () 
 {
-	let faranheit;
+	let fahrenheit;
 	let celcius;
 	let mensaje;
 
-	faranheit=parseInt(document.getElementById("txtIdTemperatura").value);
+	fahrenheit=parseInt(document.getElementById("txtIdTemperatura").value);
 
-	celcius=(faranheit - 32) / 1.8;
+	celcius=(fahrenheit - 32) / 1.8;
 
-	mensaje=("° faranheit equivale a " + celcius + "° celcius");
+	mensaje=("° fahrenheit equivalen a " + celcius + "° celcius");
 
-	alert(faranheit + mensaje);
+	alert(fahrenheit + mensaje);
 
 	
 }
@@ -22,14 +22,14 @@ function FahrenheitCentigrados ()
 function CentigradosFahrenheit () 
 {
 	let celcius;
-	let faranheit;
+	let fahrenheit;
 	let mensaje;
 
 	celcius=parseInt(document.getElementById("txtIdTemperatura").value);
 
-	faranheit=(celcius *1.8) + 32;
+	fahrenheit=(celcius *1.8) + 32;
 
-	mensaje=("° celcius equivale a " + faranheit + "° faranheit");
+	mensaje=("° celcius equivalen a " + fahrenheit + "° fahrenheit");
 
 	alert(celcius + mensaje);
 	

@@ -8,38 +8,38 @@ function mostrar()
 
 		case "Enero":
 			alert("falta para el invierno");
-				break
+				break;
 		case "Febrero":
 			alert("falta para el invierno");
-				break
+				break;
 		case "Marzo":
 			alert("falta para el invierno");
-				break
+				break;
 		case "Abril":
 			alert("falta para el invierno");
-				break
+				break;
 		case "Mayo":
 			alert("falta para el invierno");
-				break
+				break;
 		case "Junio":
 			alert("falta para el invierno");
-				break
+				break;
 		case "Septiembre":
-				break
+				break;
 			alert("ya pasamos el frio, ahora el calor");
-				break
+				break;
 		case "Octubre":
 			alert("ya pasamos el frio, ahora el calor");
-				break
+				break;
 		case "Noviembre":
 			alert("ya pasamos el frio, ahora el calor");
-				break
+				break;
 		case "Diciembre":
 			alert("ya pasamos el frio, ahora el calor");
-				break
+				break;
 		case "Julio":
 			alert("Abrigate que hace frio");
-				break
+				break;
 		case "Agosto":
 			alert("Abrigate que hace frio");
 		}

@@ -12,17 +12,18 @@ function CalcularPrecio ()
 {
     let lamparitas = 35;
     let cantidadlamparitas;
-    let descuento;
-    let resultado;
+    let descuento50;
+    let descuento40;
+    let descuento30;
     let marca;
     let mensaje;
 
     cantidadlamparitas=parseInt(document.getElementById("txtIdCantidad").value);
 
-    descuento=(cantidadlamparitas*lamparitas) * 0.50;
+    descuento50=(cantidadlamparitas*lamparitas) * 0.50;
 
     if(lamparitas>=6){
-        document.getElementById("txtIdprecioDescuento").value=descuento;
+        document.getElementById("txtIdprecioDescuento").value=descuento50;
         }
         
 

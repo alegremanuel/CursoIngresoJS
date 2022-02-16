@@ -6,7 +6,7 @@ function mostrar()
 	destino=document.getElementById("txtIdDestino").value;
 	estacion=document.getElementById("txtIdEstacion").value;
 
-	if(estacion="Invierno"){
+	if(estacion=="Invierno"){
 		switch(destino){
 			case "Bariloche":
 				alert("Se viaja");
@@ -17,14 +17,39 @@ function mostrar()
 		}
 	}
 
-	if(estacion="Verano"){
+	if(estacion=="Verano"){
 		switch(destino){
 			case "Mar del plata":
 			case "Cataratas":
 				alert("Se viaja");
-					break
+					break;
+
 		default:
 			alert("No se viaja");
+
+		}
+	}
+
+	if(estacion=="Otoño"){
+		switch(destino){
+			case "Mar del plata":
+			case "Cataratas":
+			case "Bariloche":
+			case "Cordoba":
+				alert("Se viaja");
+					break;
+		}
+	}
+
+	if(estacion=="Primavera"){
+		switch(destino){
+			case "Mar del plata":
+			case "Cataratas":
+			case "Cordoba":
+				alert("Se viaja");
+					break;
+			default:
+				alert("No se viaja");
 		}
 	}
 

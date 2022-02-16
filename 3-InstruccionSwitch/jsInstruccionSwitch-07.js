@@ -8,18 +8,12 @@ function mostrar()
 		case "Bariloche":
 			alert("Se encuentra al sur de nuestro pais");
 				break;
-	}
-	switch(destino){
 		case "Cataratas":
 			alert("Se encuentra al norte de nuestro pais");
-				break;
-	}		
-	switch(destino){
+				break;		
 		case "Mar del plata":
 			alert("Se encuentra al este de nuestro pais");
 				break;
-	}		
-	switch(destino){
 		case "Ushuaia":
 			alert("Se encuentra al sur de nuestro pais");
 				break;

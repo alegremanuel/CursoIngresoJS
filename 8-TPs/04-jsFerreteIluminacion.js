@@ -10,33 +10,64 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
  */
 function CalcularPrecio () 
 {
-    const lamparitas = 35;
+    const precio=35;
     let cantidadlamparitas;
-    let descuento50;
-    let descuento40;
-    let descuento30;
-    let marca;
+    let preciocondescuento;
+    let descuento=0;
+    let preciofinal;
     let mensaje;
+    let marca;
 
-    cantidadlamparitas=parseInt(document.getElementById("txtIdCantidad").value);
+    cantidadlamparitas=parseInt(document.getElementById("txtIdCantidad".value));
     marca=document.getElementById("Marca").value;
 
+        switch(cantidadlamparitas){
+            case 1:
+            case 2:
+                descuento=0;
+                break;
+            case 3:
+                if(marca=="ArgentinaLuz"){
+                    descuento=15;
+                }
+                else if(marca=="FelipeLamparas"){
+                    descuento=10;
+                }
+                else{
+                    descuento=5
+                }   break;
+            case 4:
+                if(marca=="ArgentinaLuz" || marca=="FelipeLamparas"){
+                    descuento=25;
+                }
+                else{
+                    descuento=20;
+                }
+                    break;
+            case 5:
+                if(marca=="ArgentinaLuz"){
+                    descuento=40;
+                }
+                else{
+                    descuento=30;
+                }
+                    break;
+            default:
+                descuento=50;
+                    break;
 
-    descuento50=(cantidadlamparitas*lamparitas) * 0.50;
-    descuento40=(cantidadlamparitas*lamparitas) * 0.40;
-
-    if(cantidadlamparitas>=6){
-        document.getElementById("txtIdprecioDescuento").value=descuento50;
         }
 
-    
-    if(marca=="ArgentinaLuz" && cantidadlamparitas==5){
-        document.getElementById("txtIdprecioDescuento").value=descuento40;
-       }
+    preciocondescuento=precio-precio*descuento/100;
 
+    if(descuento !=0){
+        preciofinal=preciocondescuento*cantidadlamparitas;
+    }
     else{
-        document.getElementById("txtIdprecioDescuento").value=descuento30;
-    } 
-       
- 	
+       preciofinal=precio * cantidadlamparitas;
+    }
+
+    mensaje=preciofinal
+
+     document.getElementById("txtIdprecioDescuento").value=mensaje;
 }

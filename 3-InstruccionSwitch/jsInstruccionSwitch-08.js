@@ -19,4 +19,16 @@ function mostrar()
 				break;
 	}
 
+/*
+	let destino
+
+	destino=document.getElementById("txtIdDestino").value;
+
+	if(destino== "Barilocho || destino =="Ushuaia"){
+		alert("Hace frio");
+	}
+	else if (destino=="Cataratas" || destino "Mar del plaata"){
+		alert("Hace calor");
+	}
+
 }//FIN DE LA FUNCIÓN

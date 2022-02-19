@@ -7,7 +7,7 @@ function mostrar()
 
 	while(i<=10){
 	alert(i);
-		i=i+1;
+		i++;
 	
 	}
 	

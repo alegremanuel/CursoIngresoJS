@@ -40,8 +40,6 @@ Hasta 120 = ahí de la ley; Más = eso no se hace >121
 		mensaje"eso no se hace"
 	}	
 
-	
-
 	alert(mensaje);
 
 }

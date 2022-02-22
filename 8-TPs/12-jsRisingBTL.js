@@ -10,9 +10,44 @@ F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para
 function ComenzarIngreso () 
 {
  	//definicion de variables
- 	var edadIngresada;
- 	var sexoIngresado;
- 	var estadoCivilIngresado;
+ 	let edad;
+ 	let sexo;
+ 	let estadoCivil;
+    let sueldo;
+    let legajo;
+    let nacionalidad;
+    let mensaje;
+/*
+    edad=parseInt(prompt("Ingrese su edad"));
+
+    if(edad>=18 || edad<=90){
+        document.getElementById("txtIdEdad").value=edad;
+    }
+
+    sexoIngresado=prompt("ingrese su sexo")
+    
+    switch(sexo){
+        case "f":
+            mensaje="Femenino";
+                break;
+        case "m":
+            mensaje="Masculino";
+                break;
+
+    document.getElementById("txtIdSexo").value=mensaje;
+  */  
+    
+
+    do{
+        edad=parseInt(prompt("Ingrese su edad"));
+    }
+    while(edad>17 || edad<91);
+
+    document.getElementById("txtIdEdad").value=edad;
+
+
+    
+
 
 
 

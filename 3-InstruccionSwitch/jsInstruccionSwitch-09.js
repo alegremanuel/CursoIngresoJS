@@ -117,7 +117,7 @@ function mostrar()
 let destino;
 let estacion;
 const PRECIO = 15000;
-let aumento=0; //inicializando en 0
+let aumento=0; 
 let descuento=0;
 let precioFinal;
 
@@ -136,7 +136,7 @@ switch(estacion){
 			descuento = 10;
 		}
 		break;
-		//hastaq aca anda bien
+		
 	case "Otoño":
 	case "Primavera":
 		if(destino != "Cordoba"){

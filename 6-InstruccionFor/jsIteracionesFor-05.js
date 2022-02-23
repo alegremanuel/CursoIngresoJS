@@ -1,11 +1,11 @@
 function mostrar()
 {
 	let i;
-	let repetciones;
+	let repeticiones;
 
-	repetciones=parseInt(prompt("Ingrese un numero"));
+	for(i=0;;i++){
 
-	for(i=0;i>0;i++){
+		repeticiones=parseInt(prompt("Ingrese un numero"));
 	
 		if(repeticiones==9){
 			break;

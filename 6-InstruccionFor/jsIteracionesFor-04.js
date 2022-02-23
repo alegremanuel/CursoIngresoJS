@@ -1,12 +1,14 @@
 function mostrar()
 {
 	let i
-	let repeticiones;
 
-	for(i=)
+	for(i=1;;i++){
+		alert(i);
 
-	alert("ok");
+		if(i==3){
+			break;
+		}	
 
-
+	}
 
 }//FIN DE LA FUNCIÓN

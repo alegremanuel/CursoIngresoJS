@@ -62,13 +62,13 @@ function mostrar()
 
 	diferencia=contPositivos-contNegativos;
 
-	document.write("La suma de negativos es "+acumNegativos);
-	document.write("La suma de positivos es "+acumPositivos);
-	document.write("La cantidad de positivos es de "+contPositivos);
-	document.write("La cantidad de negativos es de "+contNegativos);
-	document.write("La cantidad de numeros pares es de "+contPares);
-	document.write("El promedio de numeros negativos es de "+promNegativos);
-	document.write("El promedio de numeros positivos es de "+promPositivos);
+	document.write("La suma de negativos es "+acumNegativos+"<br>");
+	document.write("La suma de positivos es "+acumPositivos+"<br>");
+	document.write("La cantidad de positivos es de "+contPositivos+"<br>");
+	document.write("La cantidad de negativos es de "+contNegativos+"<br>");
+	document.write("La cantidad de numeros pares es de "+contPares+"<br>");
+	document.write("El promedio de numeros negativos es de "+promNegativos+"<br>");
+	document.write("El promedio de numeros positivos es de "+promPositivos+"<br>");
 	document.write("La diferencia entre numeros positivos y negativos es de "+diferencia);
 
 

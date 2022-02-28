@@ -41,7 +41,7 @@ function ComenzarIngreso ()
     do{
         edad=parseInt(prompt("Ingrese su edad"));
     }
-    while(edad>17 || edad<91);
+    while(edad>17 || edad<91 || isNaN(edad)==true);
 
     document.getElementById("txtIdEdad").value=edad;
 

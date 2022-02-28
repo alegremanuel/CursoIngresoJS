@@ -16,11 +16,6 @@ function mostrar()
 	}
 	alert("Cantidad de numeros pares "+contPares);
 
-	
-	
-
-
-
 
 
 }//FIN DE LA FUNCIÓN
